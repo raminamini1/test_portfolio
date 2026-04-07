@@ -92,3 +92,29 @@ Feature: Container-Verfolgung im C&T System
 ---
 
 ## 🔧 Zephyr Scale – Workflow
+
+
+
+Testfall anlegen
+→ In JIRA: Zephyr Scale → Test Cases → New Test Case
+→ Gherkin Szenario direkt eingeben
+Testzyklus erstellen
+→ Test Cycles → New Cycle → Testfälle zuweisen
+Testausführung
+→ Ausführung starten → Status setzen:
+✅ Passed | ❌ Failed | 🔒 Blocked | ⏭️ Not Executed
+Bug verknüpfen
+→ Bei Failed: direkt JIRA-Bug anlegen und verknüpfen
+Bericht erstellen
+→ Reports → Test Execution Report → für Stakeholder exportieren
+
+
+---
+
+## ✅ Best Practices
+
+- Szenarien kurz und fokussiert halten (1 Szenario = 1 Verhalten)
+- Fachsprache verwenden – kein technisches Jargon
+- Background für gemeinsame Vorbedingungen nutzen
+- Testdaten aus Beispielen auslagern (Scenario Outline)
+- Jeden Testfall mit JIRA-Ticket verknüpfen
